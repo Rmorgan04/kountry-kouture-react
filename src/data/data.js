@@ -334,3 +334,14 @@ export const testemonials = [
         stars: '4'
     },
 ];
+
+export const babes = [
+    'https://i.imgur.com/Qsts5hq.jpg',
+    'https://i.imgur.com/D5Fns5N.jpg',
+    'https://i.imgur.com/b06JKQu.jpg',
+    'https://i.imgur.com/UnoQc6O.jpg',
+    'https://i.imgur.com/njVYpdx.jpg',
+    'https://i.imgur.com/KBRu1sl.jpg',
+    'https://i.imgur.com/oFQ1E9C.jpg',
+    'https://i.imgur.com/xe5OF6I.jpg'
+]

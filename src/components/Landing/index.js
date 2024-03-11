@@ -1,6 +1,7 @@
 import { SeasonalProducts } from "../../data/data";
 import Testemonials from "../Testemonials";
-import Seasonal from "../Collections/Seasonal";
+import Seasonal from "../Seasonal";
+import Babes from "../Babes";
 
 
 // TODO - Replace Kouture Babes AND Testemonials sections with their own components
@@ -14,7 +15,7 @@ function Landing() {
                 </div>
             </section>
             <section>
-            <h2 classNameName="collection-header">Seasonal Items</h2>
+            <h2 className="collection-header">Seasonal Items</h2>
                 <Seasonal collection={SeasonalProducts}/>
             </section>
             <section className="email-sub">
@@ -33,16 +34,7 @@ function Landing() {
             </section>
             <section className="babes">
                 <h3>Kountry Kouture <span>Babes</span></h3>
-                <div className="babes_grid">
-                    <img src="img/alfie.jpg" alt=""/>
-                    <img src="img/amy.jpg" alt=""/>
-                    <img src="img/charlotte.jpg" alt=""/>
-                    <img src="img/cupcake.jpg" alt=""/>
-                    <img src="img/leo.jpg" alt=""/>
-                    <img src="img/princess.jpg" alt=""/>
-                    <img src="img/ruffles.jpg" alt=""/>
-                    <img src="img/yippy.jpg" alt=""/>
-                </div>
+                <Babes />
             </section>
         </main>
     )

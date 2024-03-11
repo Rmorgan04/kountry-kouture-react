@@ -180,17 +180,20 @@ ul li {
 
 .hero-container{
     background: url(./data/Img/many_mail_dogs.jpg) no-repeat top center fixed;
-    height: 320px;
-    padding: 2em 0;
+    height: 350px;
     overflow: hidden;
     background-size: cover;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hero h2{
     font-size: 2rem;
     font-weight: bold;
-    margin-left: 4vw;
+    padding-left: 4vw;
+    padding-top: 2rem;
+    background: linear-gradient(to bottom, black, transparent);
 }
 
 .hero span{
@@ -200,8 +203,10 @@ ul li {
 
 .hero h3{
     text-align: right;
-    margin-right: 4vw;
-    padding-top: 12rem;
+    padding-right: 4vw;
+    padding-bottom: 2rem;
+    background: linear-gradient(to top, black, transparent);
+    
 }
 
 /* COLLECTIONS SECTION */
@@ -433,19 +438,21 @@ ul li {
 
 .babes_grid {
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 1em;
     max-width: min-content;
     margin: 0 auto;
     padding-bottom: 3em;
+    max-height: 350px;
+    overflow: hidden;
 }
 
 .babes_grid img {
     opacity: 0.7;
-    width: 20vw;
+    height: 320px;
+    width: 320px;
     object-fit: cover;
     border-radius: .5em;
     transition: all .7s ease-in-out;
+    margin-bottom: 2rem;
 
 }
 
