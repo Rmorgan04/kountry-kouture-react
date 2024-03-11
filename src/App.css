@@ -23,8 +23,9 @@ a {
 /* Social media section */
 
 .social-media {
-    margin: 0 auto;
+    margin: .5rem auto;
     text-align: center;
+    padding-right: 1rem;
 }
 
 .social-media a {
@@ -35,6 +36,7 @@ a {
 
 .fa-facebook{
     color: #4267B2;
+    margin-left: .5rem;
 
 }
 
@@ -50,6 +52,7 @@ a {
 h1 {
     font-size: 2rem;
     font-weight: bold;
+    padding: .5rem 0;
 }
 
 .title-nav-container {
@@ -167,38 +170,87 @@ ul li {
 
 .dropdown-content a:hover {background-color: #fff1f5;}
 
-/* PRODUCT SECTION */
+/* HERO SECTION */
 
-.product{
+.hero{
     text-transform: uppercase;
     color: #fff;
+    background: linear-gradient(to bottom ,black, transparent);
 }
 
-.product-container{
+.hero-container{
     background: url(./data/Img/many_mail_dogs.jpg) no-repeat top center fixed;
-    height: 280px;
+    height: 320px;
     padding: 2em 0;
     overflow: hidden;
     background-size: cover;
     display: grid;
 }
 
-.product h2{
+.hero h2{
     font-size: 2rem;
     font-weight: bold;
     margin-left: 4vw;
-    background-image: linear-gradient(to bottom (black, transparent));
 }
 
-.product span{
+.hero span{
     color: #f32a63;
 }
 
 
-.product h3{
+.hero h3{
     text-align: right;
     margin-right: 4vw;
-    padding-top: 160px;
+    padding-top: 12rem;
+}
+
+/* COLLECTIONS SECTION */
+
+.collection-section {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em auto;
+    width: 90%;
+    overflow: hidden;
+
+}
+
+.collection-header {
+    padding: .5rem 0 1rem 1rem;
+    text-decoration: underline;
+    background:linear-gradient(to right, #fff1f5, #fff 35%, #fff 55%, #fff1f5);
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.collection-container {
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.collection-img {
+    height: 320px;
+    width: 320px;
+    border-bottom: 2px solid black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+}
+
+.collection-info {
+    height: 50px;
+    width: 320px;
+    text-align: center;
+    padding-top: 15px;
+    background:linear-gradient(to right, #fff1f5, #fff 35%, #fff 55%, #fff1f5);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-weight: bold;
 }
 
 /* SUBSCRIBE SECTION */
@@ -237,29 +289,31 @@ ul li {
 }
 
 .email-input {
-    margin-top: .5em;
+    margin-top: 1.5em;
     width: 80%;
     font-size: 1.2em;
     padding: .5em 1.5em .5em .5em;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .sub-btn button{
-    margin-top: .5em;
+    margin-top: 1.5em;
     margin-left: -1em;
     font-size: 1.2em;
     padding: .5em;
     background-color: #f32a63;
     color: #fff;
     border: 2.5px solid #f32a63;
-    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     z-index: 1;
     cursor: pointer;
     transition: .3s ease-in-out;
 }
 
 .sub-btn button:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .sub-btn{
@@ -274,7 +328,7 @@ ul li {
     overflow: hidden;
     font-size: 1.7rem;
     padding-bottom: 1em;
-    width: 85vw;
+    width: 90%;
     margin: 1em auto 1em;
 }
 
@@ -288,24 +342,27 @@ ul li {
     color:#f32a63;
 }
 
-.review-slider{
-    display: grid;
-    place-items: center;
-    padding: 2rem;
-}
 
 .review-container{
+    height: 370px;
+    width: 320px;
     background: linear-gradient(to right, #fff1f5, #fff 35%, #fff 55%, #fff1f5);
     border-radius: .5rem;
+    border: 2px solid black;
     text-align: center;
     box-shadow: 0 0 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
-.review-content{
-    display: grid;
-    grid-template-columns: auto auto;
-    min-width: fit-content;
+.review-content {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    
 }
+
 
 .user-name{
     font-size: .8em;
@@ -328,18 +385,11 @@ ul li {
     padding: 0 1em;
 }
 
-.product-review{
-    display: grid;
-    padding: .6em 1em .6em .6em;
-    place-items: center;
-    padding: -.5em 0;
-}
 
 .product-review a{
     font-size: 1rem;
     text-transform: capitalize;
-    margin: -1em 0;
-    padding: -1em 0;
+    padding: .5rem 0;
 }
 
 .product-review a:hover{
@@ -347,11 +397,10 @@ ul li {
 }
 
 .product-img{
-    width: 80px;
-    height: 80px;
+    padding-top: .5rem;
+    width: 316px;
+    height: 150px;
     object-fit: cover;
-    padding: .2em;
-    border-radius: .7em;
 }
 
 .star{

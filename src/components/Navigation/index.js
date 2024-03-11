@@ -1,6 +1,10 @@
 import { NavLink } from "react-router-dom";
 
+
 function Navigation () {
+
+    
+    
     return (
         <header>
             <section class="social-media">
@@ -25,7 +29,8 @@ function Navigation () {
                                         </ul>
                                         <h3 class="menu-title">Account</h3>
                                         <ul>
-                                            <li class="menu-item"><NavLink to="/login">Sign In</NavLink></li>
+                                            <li class="menu-item"><NavLink to="/login
+                                            ">Sign In</NavLink></li>
                                             <li class="menu-item">Newsletter</li>   
                                         </ul>
                                     </div>
@@ -33,7 +38,7 @@ function Navigation () {
                             </li>     
                         </ul>
                     </div>
-                    <div class="title"><h1>Kountry<br/>Kouture</h1></div>
+                    <NavLink to="/"><div class="title"><h1>Kountry<br/>Kouture</h1></div></NavLink>
                     <div class="right-nav">
                         <ul>
                             <li><a class="search-btn" href="products.html"><span class="material-symbols-outlined">search</span></a></li>

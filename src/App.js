@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import Login from "./components/Login";
 import './App.css';
 import { ReactDOM } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import RecoverPassword from "./components/RecoverPassword";
 
 
@@ -14,9 +14,9 @@ function App() {
       
         <Navigation />
           <Routes>
-            {/* <Route path="/login/recover-password" element={<RecoverPassword />} /> */}
+            <Route path="/login/recover-password" element={<RecoverPassword />} />
             <Route path="/login" element={<Login/>} />
-            <Route exact path="/" element={<Landing />} />
+            <Route path="/" element={<Landing />} />
           </Routes>
         <Footer />
       
