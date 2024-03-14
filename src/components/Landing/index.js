@@ -2,6 +2,7 @@ import { SeasonalProducts } from "../../data/data";
 import Testemonials from "../Testemonials";
 import Seasonal from "../Seasonal";
 import Babes from "../Babes";
+import { NavLink } from "react-router-dom";
 
 
 // TODO - Replace Kouture Babes AND Testemonials sections with their own components
@@ -14,9 +15,22 @@ function Landing() {
                     <h3>all bows are handmade with <span>love</span></h3>
                 </div>
             </section>
-            <section>
-            <h2 className="collection-header">Seasonal Items</h2>
+            <section className="collection">
+            <h2 className="seasonal-header">Seasonal Items</h2>
                 <Seasonal collection={SeasonalProducts}/>
+                <div className="shop-all-button-container">
+                <span class="material-symbols-outlined flower">
+                    spa
+                    </span><span class="material-symbols-outlined flower">
+                    spa
+                    </span>
+                    <NavLink to='/collections'><button className="shop-all-btn">Shop All</button></NavLink>
+                <span class="material-symbols-outlined flower">
+                    spa
+                    </span><span class="material-symbols-outlined flower">
+                    spa
+                    </span>
+            </div>
             </section>
             <section className="email-sub">
                 <div className="email-container">

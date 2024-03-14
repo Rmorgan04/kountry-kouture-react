@@ -1,7 +1,7 @@
 export const bows = [
     {
         id: '001',
-        group: 'Satin Bows',
+        group: 'Bows',
         name: 'Speckled Pink',
         img: 'https://i.imgur.com/EuhJfEG.jpg',
         price: '5.00'
@@ -9,7 +9,7 @@ export const bows = [
 
     {
         id: '002',
-        group: 'Satin Bows',
+        group: 'Bows',
         name: 'Plain Pink',
         img: 'https://i.imgur.com/DPwNs6l.jpg',
         price: '5.00'
@@ -17,7 +17,7 @@ export const bows = [
 
     {
         id: '003',
-        group: 'Satin Bows',
+        group: 'Bows',
         name: 'Black',
         img: 'https://i.imgur.com/YmAfGlL.jpg',
         price: '5.00'
@@ -25,7 +25,7 @@ export const bows = [
     
     {
         id: '004',
-        group: 'Satin Bows',
+        group: 'Bows',
         name: 'Assorted Shine',
         img: 'https://i.imgur.com/AR0yD6u.jpg',
         price: '5.00'
@@ -33,7 +33,7 @@ export const bows = [
     
     {
         id: '005',
-        group: 'Satin Bows',
+        group: 'Bows',
         name: 'Assorted Pastel',
         img: 'https://i.imgur.com/1tre6s0.jpg',
         price: '5.00'
@@ -41,7 +41,7 @@ export const bows = [
     
     {
         id: '006',
-        group: 'Satin Bows',
+        group: 'Bows',
         name: 'Giant',
         img: 'https://i.imgur.com/m88hQY1.jpg',
         price: '5.00'
@@ -49,59 +49,11 @@ export const bows = [
     
     {
         id: '007',
-        group: 'Satin Bows',
+        group: 'Bows',
         name: 'Blue',
         img: 'https://i.imgur.com/hGiJvkk.jpg',
         price: '5.00'
-    },
-    
-    {
-        id: '008',
-        group: 'Satin Bows',
-        name: '4" Shredded',
-        img: '',
-        price: '5.00'
-    },
-    
-    {
-        id: '009',
-        group: 'Satin Bows',
-        name: '4" Shredded',
-        img: '',
-        price: '5.00'
-    },
-    
-    {
-        id: '010',
-        group: 'Satin Bows',
-        name: '4" Shredded',
-        img: '',
-        price: '5.00'
-    },
-    
-    {
-        id: '011',
-        group: 'Satin Bows',
-        name: '4" Shredded',
-        img: '',
-        price: '5.00'
-    },
-    
-    {
-        id: '012',
-        group: 'Satin Bows',
-        name: '4" Shredded',
-        img: '',
-        price: '5.00'
-    },
-    
-    {
-        id: '013',
-        group: 'Satin Bows',
-        name: '4" Shredded',
-        img: '',
-        price: '5.00'
-    },
+    }
     
 ];
 
@@ -344,4 +296,12 @@ export const babes = [
     'https://i.imgur.com/KBRu1sl.jpg',
     'https://i.imgur.com/oFQ1E9C.jpg',
     'https://i.imgur.com/xe5OF6I.jpg'
+]
+
+export const payMethods = [
+    'https://i.imgur.com/Y71z2xn.png',
+    'https://i.imgur.com/YmlfaEo.png',
+    'https://i.imgur.com/CnuSghP.png',
+    'https://i.imgur.com/C35XIxj.png',
+    'https://i.imgur.com/TWF0Re8.png'
 ]
