@@ -4,7 +4,7 @@ function Babes() {
     return (
         <div className="babes_grid">
             {babes.map((image) => (
-                <img src={`${image}`} alt="" />
+                <img key={image.id} src={`${image.image}`} alt="" />
             ))}
         </div>
     )

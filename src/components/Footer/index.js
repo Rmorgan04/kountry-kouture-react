@@ -7,7 +7,7 @@ function Footer() {
                 <div class="footer-container">
                     <div class="accepted_payments">
                         {payMethods.map((image) => (
-                            <img src={`${image}`} alt='accepted payment method' />
+                            <img key={image.id} src={`${image.image}`} alt='accepted payment method' />
                         ))}
                     </div>
                     <p>Site provided by Robbobobbo</p>

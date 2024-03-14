@@ -12,7 +12,7 @@ function Testemonials() {
                                 <p className="review-date">{item.date}</p>
                             </div>
                             <div className="product-review">
-                                <img className="product-img" src={`${item.product.img}`} alt={item.product.name}/>
+                                <img className="product-review-img" src={`${item.product.img}`} alt={item.product.name}/>
                                 <NavLink to="/collections/bows/:productId">{item.product.name}</NavLink>
                             </div>
                             <div className="review-stars">

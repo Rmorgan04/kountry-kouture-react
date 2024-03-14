@@ -210,9 +210,9 @@ export const clothes = [
 export const testemonials = [
     {
         id: '001',
-        user: 'Dogbert',
+        user: 'Anglea',
         date: '01/02/2023',
-        body: 'This is the most bestest bows in the whole world!',
+        body: 'Beatifully crafted bows!  These arrived very quick and were packaged as displayed!',
         product: {
             name: bows[0].name,
             img: bows[0].img
@@ -288,20 +288,20 @@ export const testemonials = [
 ];
 
 export const babes = [
-    'https://i.imgur.com/Qsts5hq.jpg',
-    'https://i.imgur.com/D5Fns5N.jpg',
-    'https://i.imgur.com/b06JKQu.jpg',
-    'https://i.imgur.com/UnoQc6O.jpg',
-    'https://i.imgur.com/njVYpdx.jpg',
-    'https://i.imgur.com/KBRu1sl.jpg',
-    'https://i.imgur.com/oFQ1E9C.jpg',
-    'https://i.imgur.com/xe5OF6I.jpg'
+    {id: '01', image: 'https://i.imgur.com/Qsts5hq.jpg'},
+    {id: '02', image:'https://i.imgur.com/D5Fns5N.jpg'},
+    {id: '03', image:'https://i.imgur.com/b06JKQu.jpg'},
+    {id: '04', image:'https://i.imgur.com/UnoQc6O.jpg'},
+    {id: '05', image:'https://i.imgur.com/njVYpdx.jpg'},
+    {id: '06', image:'https://i.imgur.com/KBRu1sl.jpg'},
+    {id: '07', image:'https://i.imgur.com/oFQ1E9C.jpg'},
+    {id: '08', image:'https://i.imgur.com/xe5OF6I.jpg'}
 ]
 
 export const payMethods = [
-    'https://i.imgur.com/Y71z2xn.png',
-    'https://i.imgur.com/YmlfaEo.png',
-    'https://i.imgur.com/CnuSghP.png',
-    'https://i.imgur.com/C35XIxj.png',
-    'https://i.imgur.com/TWF0Re8.png'
+    {id: '01', image:'https://i.imgur.com/Y71z2xn.png'},
+    {id: '02', image:'https://i.imgur.com/YmlfaEo.png'},
+    {id: '03', image:'https://i.imgur.com/CnuSghP.png'},
+    {id: '04', image:'https://i.imgur.com/C35XIxj.png'},
+    {id: '05', image:'https://i.imgur.com/TWF0Re8.png'}
 ]

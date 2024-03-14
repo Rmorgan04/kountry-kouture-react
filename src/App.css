@@ -230,10 +230,10 @@ ul li {
 }
 
 .product-container li {
-    margin-right: 1rem;
+    margin:0 1rem;
 }
 
-.product-header {
+.seasonal-header {
     padding: .5rem 0 1rem 4vw;
     text-decoration: underline;
     background:linear-gradient(to right, #fff1f5, #fff 35%, #fff 55%, #fff1f5);
@@ -411,7 +411,7 @@ ul li {
 
 .user-name, .review-date{
     text-align: left;
-    margin: .5em 0 .3em 4vw;
+    margin: .5em 0 .3em 1rem;
 }
 
 .review-quote{
